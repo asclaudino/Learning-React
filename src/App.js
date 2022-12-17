@@ -1,7 +1,7 @@
 import Expenses from "./components/Expenses";
 
 function App() {
-  const expenses = [
+  const items = [
     {
       id: "e1",
       title: "Toilet Paper",
@@ -25,7 +25,7 @@ function App() {
   return (
     <div>
       <h2>These are your expenses:</h2>
-      <Expenses expenses={expenses}></Expenses>
+      <Expenses items={items}></Expenses>
     </div>
   );
 }
